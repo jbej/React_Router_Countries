@@ -10,17 +10,16 @@ export function getCountries() {
         type: GET_COUNTRIES
     };
 }
-
-export function deleteCountry(id) {
+export function getCountry(id) {
     return {
-        type: DELETE_COUNTRY,
+        type: GET_COUNTRY,
         id
     };
 }
 
-export function getCountry(id) {
+export function deleteCountry(id) {
     return {
-        type: GET_COUNTRY,
+        type: DELETE_COUNTRY,
         id
     };
 }
